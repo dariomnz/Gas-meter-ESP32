@@ -1,0 +1,15 @@
+{
+    "build": {
+        "flags": [
+            "-L.",
+            "-lade",
+            "-lopencv_core",
+            "-lopencv_imgcodecs",
+            "-lopencv_imgproc",
+            
+            "-L./3rdparty",
+            "-lliblibpng",
+            "-lzlib"
+        ]
+    }
+}
